@@ -1,4 +1,5 @@
 #!/usr/bin/python
+#fab -f deployjava.py deploy
 from fabric.api import *
 
 env.user = 'root'
@@ -16,7 +17,7 @@ tomcatDir = '/var/lib/tomcat6/webapps'
 def buildProject():
     with lcd(env.projectDir):
         local('rm -fr ./target/' + projectName + '.war')
-        local('mvn package')
+        local('mvn clean package')
         local('mv ./target/' + projectName + '-1.0-SNAPSHOT.war ./target/' + projectName + '.war')
 
 
