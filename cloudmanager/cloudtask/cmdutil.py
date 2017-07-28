@@ -18,7 +18,7 @@ def exceCmd(hostname, username, password,cmdList):
     for cmdStr in cmdList:
         stdin, stdout, stderr = ssh.exec_command(cmdStr)
         resStr = stdout.read().decode()
-        print(resStr)
+        # print(resStr)
         resList.append(resStr)
     trans.close()
     return resList
