@@ -9,11 +9,11 @@ class SimpleMiddleware(object):
         # Code to be executed for each request before
         # the view (and later middleware) are called.
         # 调用 view 之前的代码
-        print "begin invoke view"
+        print("begin invoke view")
         response = self.get_response(request)
 
         # Code to be executed for each request/response after
         # the view is called.
         # 调用 view 之后的代码
-        print "end invoke view"
+        print("end invoke view")
         return response

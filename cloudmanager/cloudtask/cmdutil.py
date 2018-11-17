@@ -28,5 +28,5 @@ def exceCmd(hostname, username, password,cmdList):
 if __name__ == '__main__':
     resList = exceCmd('10.10.203.162','root', 'vicloud.1', ['ls -al', 'uname -r'])
     for str in resList:
-        print "命令执行结果::",str
+        print("命令执行结果::",str)
 
