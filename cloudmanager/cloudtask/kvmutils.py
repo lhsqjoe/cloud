@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from cmdutil import *
+from .cmdutil import *
 
 hostIp = '10.10.203.252'
 hostUser = 'root'
@@ -18,7 +18,7 @@ def closeAllVm(vmList):
         if '' != temp:
             vm = temp.split(",", -1)
             if (vm[2] == 'running'):
-                print '命令virsh destroy ', vm[1]
+                print('命令virsh destroy ', vm[1])
                 exceCmd(hostIp, hostUser, hostPwd, ['virsh destroy ' + vm[1]])
 
 
@@ -27,7 +27,7 @@ def startAllVm(vmList):
         if '' != temp:
             vm = temp.split(",", -1)
             if (vm[2] == 'shutoff'):
-                print '命令virsh start ', vm[1]
+                print('命令virsh start ', vm[1])
                 exceCmd(hostIp, hostUser, hostPwd, ['virsh start ' + vm[1]])
 
 
@@ -36,11 +36,11 @@ def undefineAllVm(vmList):
         if '' != temp:
             vm = temp.split(",", -1)
             if (vm[2] == 'shutoff'):
-                print '命令virsh undefine ', vm[1]
+                print('命令virsh undefine ', vm[1])
                 exceCmd(hostIp, hostUser, hostPwd, ['virsh undefine ' + vm[1]])
 
 
 if __name__ == '__main__':
     vmList = getVmList()
     # closeAllVm(vmList)
-    startAllVm(vmList)
+    # startAllVm(vmList)

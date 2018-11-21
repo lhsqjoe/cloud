@@ -1,4 +1,7 @@
 #!/usr/bin/python
+'''
+fabric 1.x
+
 # fab -f deployjava.py deploy
 from fabric.api import *
 
@@ -53,3 +56,5 @@ def deploy():
     run('rm -fr ' + tomcatDir + "/" + projectName + "*")
     put(env.workDir+"/"+projectName + "/target/" + projectName + ".war", tomcatDir + "/" + projectName + ".war")
     run('service tomcat6 start')
+
+'''

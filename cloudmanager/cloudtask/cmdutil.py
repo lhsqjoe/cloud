@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import paramiko
+import subprocess
 
 # 远程命令执行工具类
 port = 22
@@ -23,10 +24,20 @@ def exceCmd(hostname, username, password,cmdList):
     trans.close()
     return resList
 
+'''
+ exce local cmd
+'''
+def excelocalcmd(cmdstr):
+    p = subprocess.Popen(cmdstr, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+    res = p.stdout.readlines()
+    for line in res:
+        print(line)
+    return res
 
 
 if __name__ == '__main__':
-    resList = exceCmd('10.10.203.162','root', 'vicloud.1', ['ls -al', 'uname -r'])
-    for str in resList:
-        print("命令执行结果::",str)
+    excelocalcmd('ls')
+    # resList = exceCmd('10.10.203.162','root', 'vicloud.1', ['ls -al', 'uname -r'])
+    # for str in resList:
+    #     print("命令执行结果::",str)
 

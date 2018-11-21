@@ -83,7 +83,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'vclouddjango',
         'USER': 'root',
-        'PASSWORD': '123456',
+        'PASSWORD': 'qiao',
         'HOST': '127.0.0.1',
         'PORT': '3306',
     }
