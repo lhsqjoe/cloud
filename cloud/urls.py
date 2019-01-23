@@ -18,5 +18,5 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^cloudmanager/', include('cloudmanager.urls')),
+    url(r'^cloudmanager/', include('webconsole.urls')),
 ]

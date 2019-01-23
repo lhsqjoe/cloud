@@ -1,0 +1,292 @@
+DEBUG 2019-01-23 06:52:19,060 utils 27081 140665801082624 (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+DEBUG 2019-01-23 06:52:19,060 utils 27081 140665801082624 (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+DEBUG 2019-01-23 06:52:19,064 utils 27081 140665801082624 (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+DEBUG 2019-01-23 06:52:19,064 utils 27081 140665801082624 (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+DEBUG 2019-01-23 06:52:45,050 utils 27114 139942674044736 (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+DEBUG 2019-01-23 06:52:45,050 utils 27114 139942674044736 (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+DEBUG 2019-01-23 06:52:45,052 utils 27114 139942674044736 (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+DEBUG 2019-01-23 06:52:45,052 utils 27114 139942674044736 (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+DEBUG 2019-01-23 06:52:45,053 utils 27114 139942674044736 (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+DEBUG 2019-01-23 06:52:45,053 utils 27114 139942674044736 (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+DEBUG 2019-01-23 06:52:45,054 utils 27114 139942674044736 (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+DEBUG 2019-01-23 06:52:45,054 utils 27114 139942674044736 (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+DEBUG 2019-01-23 06:52:45,114 utils 27114 139942674044736 (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+DEBUG 2019-01-23 06:52:45,114 utils 27114 139942674044736 (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+DEBUG 2019-01-23 06:52:45,115 utils 27114 139942674044736 (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+DEBUG 2019-01-23 06:52:45,115 utils 27114 139942674044736 (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+DEBUG 2019-01-23 06:52:45,116 utils 27114 139942674044736 (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+DEBUG 2019-01-23 06:52:45,116 utils 27114 139942674044736 (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+DEBUG 2019-01-23 06:52:45,117 utils 27114 139942674044736 (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'admin' AND "django_content_type"."model" = 'logentry'); args=('admin', 'logentry')
+DEBUG 2019-01-23 06:52:45,117 utils 27114 139942674044736 (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'admin' AND "django_content_type"."model" = 'logentry'); args=('admin', 'logentry')
+DEBUG 2019-01-23 06:52:45,120 utils 27114 139942674044736 (0.000) SELECT "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_permission"."content_type_id" IN (1) ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(1,)
+DEBUG 2019-01-23 06:52:45,120 utils 27114 139942674044736 (0.000) SELECT "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_permission"."content_type_id" IN (1) ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(1,)
+DEBUG 2019-01-23 06:52:45,121 utils 27114 139942674044736 (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'admin'; args=('admin',)
+DEBUG 2019-01-23 06:52:45,121 utils 27114 139942674044736 (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'admin'; args=('admin',)
+DEBUG 2019-01-23 06:52:45,122 utils 27114 139942674044736 (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'auth' AND "django_content_type"."model" = 'permission'); args=('auth', 'permission')
+DEBUG 2019-01-23 06:52:45,122 utils 27114 139942674044736 (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'auth' AND "django_content_type"."model" = 'permission'); args=('auth', 'permission')
+DEBUG 2019-01-23 06:52:45,123 utils 27114 139942674044736 (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'auth' AND "django_content_type"."model" = 'group'); args=('auth', 'group')
+DEBUG 2019-01-23 06:52:45,123 utils 27114 139942674044736 (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'auth' AND "django_content_type"."model" = 'group'); args=('auth', 'group')
+DEBUG 2019-01-23 06:52:45,124 utils 27114 139942674044736 (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'auth' AND "django_content_type"."model" = 'user'); args=('auth', 'user')
+DEBUG 2019-01-23 06:52:45,124 utils 27114 139942674044736 (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'auth' AND "django_content_type"."model" = 'user'); args=('auth', 'user')
+DEBUG 2019-01-23 06:52:45,126 utils 27114 139942674044736 (0.000) SELECT "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_permission"."content_type_id" IN (2, 3, 4) ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(2, 3, 4)
+DEBUG 2019-01-23 06:52:45,126 utils 27114 139942674044736 (0.000) SELECT "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_permission"."content_type_id" IN (2, 3, 4) ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(2, 3, 4)
+DEBUG 2019-01-23 06:52:45,127 utils 27114 139942674044736 (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'auth'; args=('auth',)
+DEBUG 2019-01-23 06:52:45,127 utils 27114 139942674044736 (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'auth'; args=('auth',)
+DEBUG 2019-01-23 06:52:45,128 utils 27114 139942674044736 (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'contenttypes' AND "django_content_type"."model" = 'contenttype'); args=('contenttypes', 'contenttype')
+DEBUG 2019-01-23 06:52:45,128 utils 27114 139942674044736 (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'contenttypes' AND "django_content_type"."model" = 'contenttype'); args=('contenttypes', 'contenttype')
+DEBUG 2019-01-23 06:52:45,131 utils 27114 139942674044736 (0.000) SELECT "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_permission"."content_type_id" IN (5) ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(5,)
+DEBUG 2019-01-23 06:52:45,131 utils 27114 139942674044736 (0.000) SELECT "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_permission"."content_type_id" IN (5) ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(5,)
+DEBUG 2019-01-23 06:52:45,132 utils 27114 139942674044736 (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'contenttypes'; args=('contenttypes',)
+DEBUG 2019-01-23 06:52:45,132 utils 27114 139942674044736 (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'contenttypes'; args=('contenttypes',)
+DEBUG 2019-01-23 06:52:45,134 utils 27114 139942674044736 (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'sessions' AND "django_content_type"."model" = 'session'); args=('sessions', 'session')
+DEBUG 2019-01-23 06:52:45,134 utils 27114 139942674044736 (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'sessions' AND "django_content_type"."model" = 'session'); args=('sessions', 'session')
+DEBUG 2019-01-23 06:52:45,136 utils 27114 139942674044736 (0.000) SELECT "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_permission"."content_type_id" IN (6) ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(6,)
+DEBUG 2019-01-23 06:52:45,136 utils 27114 139942674044736 (0.000) SELECT "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_permission"."content_type_id" IN (6) ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(6,)
+DEBUG 2019-01-23 06:52:45,137 utils 27114 139942674044736 (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'sessions'; args=('sessions',)
+DEBUG 2019-01-23 06:52:45,137 utils 27114 139942674044736 (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'sessions'; args=('sessions',)
+DEBUG 2019-01-23 06:52:53,001 utils 27130 140714796484352 (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+DEBUG 2019-01-23 06:52:53,001 utils 27130 140714796484352 (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+DEBUG 2019-01-23 06:52:53,005 utils 27130 140714796484352 (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+DEBUG 2019-01-23 06:52:53,005 utils 27130 140714796484352 (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+INFO 2019-01-23 06:52:55,081 middleware 27130 140714786432768 begin invoke view
+DEBUG 2019-01-23 06:52:55,096 base 27130 140714786432768 Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/qiao/PycharmProjects/cloud/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/qiao/PycharmProjects/cloud/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 111, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/qiao/PycharmProjects/cloud/venv/lib/python3.6/site-packages/django/urls/resolvers.py", line 520, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) '^admin/'>], [<URLResolver <module 'webconsole.urls' from '/home/qiao/PycharmProjects/cloud/webconsole/urls.py'> (webconsole:webconsole) '^cloudmanager/'>]], 'path': ''}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/qiao/PycharmProjects/cloud/venv/lib/python3.6/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/qiao/PycharmProjects/cloud/venv/lib/python3.6/site-packages/django/template/base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/qiao/PycharmProjects/cloud/venv/lib/python3.6/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/qiao/PycharmProjects/cloud/venv/lib/python3.6/site-packages/django/template/base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) '^admin/'>
+DEBUG 2019-01-23 06:52:55,102 base 27130 140714786432768 Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/qiao/PycharmProjects/cloud/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/qiao/PycharmProjects/cloud/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 111, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/qiao/PycharmProjects/cloud/venv/lib/python3.6/site-packages/django/urls/resolvers.py", line 520, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) '^admin/'>], [<URLResolver <module 'webconsole.urls' from '/home/qiao/PycharmProjects/cloud/webconsole/urls.py'> (webconsole:webconsole) '^cloudmanager/'>]], 'path': ''}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/qiao/PycharmProjects/cloud/venv/lib/python3.6/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/qiao/PycharmProjects/cloud/venv/lib/python3.6/site-packages/django/template/base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/qiao/PycharmProjects/cloud/venv/lib/python3.6/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/qiao/PycharmProjects/cloud/venv/lib/python3.6/site-packages/django/template/base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'webconsole.urls' from '/home/qiao/PycharmProjects/cloud/webconsole/urls.py'> (webconsole:webconsole) '^cloudmanager/'>
+INFO 2019-01-23 06:52:55,105 middleware 27130 140714786432768 end invoke view
+WARNING 2019-01-23 06:52:55,106 log 27130 140714786432768 Not Found: /
+WARNING 2019-01-23 06:52:55,107 basehttp 27130 140714786432768 "GET / HTTP/1.1" 404 2035
+INFO 2019-01-23 06:53:08,335 middleware 27130 140714786432768 begin invoke view
+DEBUG 2019-01-23 06:53:08,346 base 27130 140714786432768 Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/qiao/PycharmProjects/cloud/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/qiao/PycharmProjects/cloud/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 111, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/qiao/PycharmProjects/cloud/venv/lib/python3.6/site-packages/django/urls/resolvers.py", line 520, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) '^admin/'>], [<URLResolver <module 'webconsole.urls' from '/home/qiao/PycharmProjects/cloud/webconsole/urls.py'> (webconsole:webconsole) '^cloudmanager/'>, <URLPattern '' [name='show_login']>], [<URLResolver <module 'webconsole.urls' from '/home/qiao/PycharmProjects/cloud/webconsole/urls.py'> (webconsole:webconsole) '^cloudmanager/'>, <URLPattern 'login/' [name='login']>], [<URLResolver <module 'webconsole.urls' from '/home/qiao/PycharmProjects/cloud/webconsole/urls.py'> (webconsole:webconsole) '^cloudmanager/'>, <URLPattern 'logout/' [name='logout']>]], 'path': 'cloudmanager/index'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/qiao/PycharmProjects/cloud/venv/lib/python3.6/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/qiao/PycharmProjects/cloud/venv/lib/python3.6/site-packages/django/template/base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/qiao/PycharmProjects/cloud/venv/lib/python3.6/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/qiao/PycharmProjects/cloud/venv/lib/python3.6/site-packages/django/template/base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) '^admin/'>
+INFO 2019-01-23 06:53:08,351 middleware 27130 140714786432768 end invoke view
+WARNING 2019-01-23 06:53:08,352 log 27130 140714786432768 Not Found: /cloudmanager/index
+WARNING 2019-01-23 06:53:08,353 basehttp 27130 140714786432768 "GET /cloudmanager/index HTTP/1.1" 404 2537
+INFO 2019-01-23 06:53:13,193 middleware 27130 140714786432768 begin invoke view
+INFO 2019-01-23 06:53:13,261 middleware 27130 140714786432768 end invoke view
+DEBUG 2019-01-23 06:53:13,271 utils 27130 140714786432768 (0.001) SELECT (1) AS "a" FROM "django_session" WHERE "django_session"."session_key" = 'ivny83revtyojqphg9eatwuplkdrda12'  LIMIT 1; args=('ivny83revtyojqphg9eatwuplkdrda12',)
+DEBUG 2019-01-23 06:53:13,271 utils 27130 140714786432768 (0.001) SELECT (1) AS "a" FROM "django_session" WHERE "django_session"."session_key" = 'ivny83revtyojqphg9eatwuplkdrda12'  LIMIT 1; args=('ivny83revtyojqphg9eatwuplkdrda12',)
+DEBUG 2019-01-23 06:53:13,274 utils 27130 140714786432768 (0.000) BEGIN; args=None
+DEBUG 2019-01-23 06:53:13,274 utils 27130 140714786432768 (0.000) BEGIN; args=None
+DEBUG 2019-01-23 06:53:13,278 utils 27130 140714786432768 (0.000) INSERT INTO "django_session" ("session_key", "session_data", "expire_date") SELECT 'ivny83revtyojqphg9eatwuplkdrda12', 'ZWM0ODgxYzk4OWQyZmU1MTU0YjQ5OWIzOGNkNWMxNDQzOWVhYjVhMjp7InByb2plY3RfbmFtZSI6ImNsb3VkIn0=', '2019-02-06 06:53:13.273798'; args=('ivny83revtyojqphg9eatwuplkdrda12', 'ZWM0ODgxYzk4OWQyZmU1MTU0YjQ5OWIzOGNkNWMxNDQzOWVhYjVhMjp7InByb2plY3RfbmFtZSI6ImNsb3VkIn0=', '2019-02-06 06:53:13.273798')
+DEBUG 2019-01-23 06:53:13,278 utils 27130 140714786432768 (0.000) INSERT INTO "django_session" ("session_key", "session_data", "expire_date") SELECT 'ivny83revtyojqphg9eatwuplkdrda12', 'ZWM0ODgxYzk4OWQyZmU1MTU0YjQ5OWIzOGNkNWMxNDQzOWVhYjVhMjp7InByb2plY3RfbmFtZSI6ImNsb3VkIn0=', '2019-02-06 06:53:13.273798'; args=('ivny83revtyojqphg9eatwuplkdrda12', 'ZWM0ODgxYzk4OWQyZmU1MTU0YjQ5OWIzOGNkNWMxNDQzOWVhYjVhMjp7InByb2plY3RfbmFtZSI6ImNsb3VkIn0=', '2019-02-06 06:53:13.273798')
+INFO 2019-01-23 06:53:13,463 basehttp 27130 140714786432768 "GET /cloudmanager/ HTTP/1.1" 200 2908
+INFO 2019-01-23 06:53:13,492 basehttp 27130 140714786432768 "GET /static/font-google/css/font-google.css HTTP/1.1" 304 0
+INFO 2019-01-23 06:53:15,744 middleware 27130 140714786432768 begin invoke view
+DEBUG 2019-01-23 06:53:15,747 views 27130 140714786432768 --------------login view is invoke!
+DEBUG 2019-01-23 06:53:15,822 utils 27130 140714786432768 (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-01-23 06:53:15.816261' AND "django_session"."session_key" = 'ivny83revtyojqphg9eatwuplkdrda12'); args=('2019-01-23 06:53:15.816261', 'ivny83revtyojqphg9eatwuplkdrda12')
+DEBUG 2019-01-23 06:53:15,822 utils 27130 140714786432768 (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-01-23 06:53:15.816261' AND "django_session"."session_key" = 'ivny83revtyojqphg9eatwuplkdrda12'); args=('2019-01-23 06:53:15.816261', 'ivny83revtyojqphg9eatwuplkdrda12')
+ERROR 2019-01-23 06:53:16,005 log 27130 140714786432768 Internal Server Error: /cloudmanager/login/
+Traceback (most recent call last):
+  File "/home/qiao/PycharmProjects/cloud/venv/lib/python3.6/site-packages/django/utils/datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'username'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/qiao/PycharmProjects/cloud/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/qiao/PycharmProjects/cloud/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/qiao/PycharmProjects/cloud/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/qiao/PycharmProjects/cloud/webconsole/views.py", line 17, in login
+    username = request.POST['username']
+  File "/home/qiao/PycharmProjects/cloud/venv/lib/python3.6/site-packages/django/utils/datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'username'
+INFO 2019-01-23 06:53:16,007 middleware 27130 140714786432768 end invoke view
+ERROR 2019-01-23 06:53:16,008 basehttp 27130 140714786432768 "POST /cloudmanager/login/ HTTP/1.1" 500 80147
+DEBUG 2019-01-23 06:55:33,140 utils 27378 140383747512064 (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+DEBUG 2019-01-23 06:55:33,140 utils 27378 140383747512064 (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+DEBUG 2019-01-23 06:55:33,145 utils 27378 140383747512064 (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+DEBUG 2019-01-23 06:55:33,145 utils 27378 140383747512064 (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+DEBUG 2019-01-23 06:57:01,359 utils 27450 139675794528000 (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+DEBUG 2019-01-23 06:57:01,359 utils 27450 139675794528000 (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+DEBUG 2019-01-23 06:57:01,364 utils 27450 139675794528000 (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+DEBUG 2019-01-23 06:57:01,364 utils 27450 139675794528000 (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+INFO 2019-01-23 06:57:05,534 middleware 27450 139675784214272 begin invoke view
+DEBUG 2019-01-23 06:57:05,545 utils 27450 139675784214272 (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-01-23 06:57:05.535903' AND "django_session"."session_key" = 'ivny83revtyojqphg9eatwuplkdrda12'); args=('2019-01-23 06:57:05.535903', 'ivny83revtyojqphg9eatwuplkdrda12')
+DEBUG 2019-01-23 06:57:05,545 utils 27450 139675784214272 (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-01-23 06:57:05.535903' AND "django_session"."session_key" = 'ivny83revtyojqphg9eatwuplkdrda12'); args=('2019-01-23 06:57:05.535903', 'ivny83revtyojqphg9eatwuplkdrda12')
+INFO 2019-01-23 06:57:05,613 middleware 27450 139675784214272 end invoke view
+DEBUG 2019-01-23 06:57:05,616 utils 27450 139675784214272 (0.000) BEGIN; args=None
+DEBUG 2019-01-23 06:57:05,616 utils 27450 139675784214272 (0.000) BEGIN; args=None
+DEBUG 2019-01-23 06:57:05,620 utils 27450 139675784214272 (0.000) UPDATE "django_session" SET "session_data" = 'ZWM0ODgxYzk4OWQyZmU1MTU0YjQ5OWIzOGNkNWMxNDQzOWVhYjVhMjp7InByb2plY3RfbmFtZSI6ImNsb3VkIn0=', "expire_date" = '2019-02-06 06:57:05.616088' WHERE "django_session"."session_key" = 'ivny83revtyojqphg9eatwuplkdrda12'; args=('ZWM0ODgxYzk4OWQyZmU1MTU0YjQ5OWIzOGNkNWMxNDQzOWVhYjVhMjp7InByb2plY3RfbmFtZSI6ImNsb3VkIn0=', '2019-02-06 06:57:05.616088', 'ivny83revtyojqphg9eatwuplkdrda12')
+DEBUG 2019-01-23 06:57:05,620 utils 27450 139675784214272 (0.000) UPDATE "django_session" SET "session_data" = 'ZWM0ODgxYzk4OWQyZmU1MTU0YjQ5OWIzOGNkNWMxNDQzOWVhYjVhMjp7InByb2plY3RfbmFtZSI6ImNsb3VkIn0=', "expire_date" = '2019-02-06 06:57:05.616088' WHERE "django_session"."session_key" = 'ivny83revtyojqphg9eatwuplkdrda12'; args=('ZWM0ODgxYzk4OWQyZmU1MTU0YjQ5OWIzOGNkNWMxNDQzOWVhYjVhMjp7InByb2plY3RfbmFtZSI6ImNsb3VkIn0=', '2019-02-06 06:57:05.616088', 'ivny83revtyojqphg9eatwuplkdrda12')
+INFO 2019-01-23 06:57:05,690 basehttp 27450 139675784214272 "GET /cloudmanager/ HTTP/1.1" 200 2940
+INFO 2019-01-23 06:57:07,450 middleware 27450 139675784214272 begin invoke view
+DEBUG 2019-01-23 06:57:07,455 utils 27450 139675784214272 (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-01-23 06:57:07.451825' AND "django_session"."session_key" = 'ivny83revtyojqphg9eatwuplkdrda12'); args=('2019-01-23 06:57:07.451825', 'ivny83revtyojqphg9eatwuplkdrda12')
+DEBUG 2019-01-23 06:57:07,455 utils 27450 139675784214272 (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-01-23 06:57:07.451825' AND "django_session"."session_key" = 'ivny83revtyojqphg9eatwuplkdrda12'); args=('2019-01-23 06:57:07.451825', 'ivny83revtyojqphg9eatwuplkdrda12')
+INFO 2019-01-23 06:57:07,467 middleware 27450 139675784214272 end invoke view
+DEBUG 2019-01-23 06:57:07,468 utils 27450 139675784214272 (0.000) BEGIN; args=None
+DEBUG 2019-01-23 06:57:07,468 utils 27450 139675784214272 (0.000) BEGIN; args=None
+DEBUG 2019-01-23 06:57:07,472 utils 27450 139675784214272 (0.000) UPDATE "django_session" SET "session_data" = 'ZWM0ODgxYzk4OWQyZmU1MTU0YjQ5OWIzOGNkNWMxNDQzOWVhYjVhMjp7InByb2plY3RfbmFtZSI6ImNsb3VkIn0=', "expire_date" = '2019-02-06 06:57:07.468451' WHERE "django_session"."session_key" = 'ivny83revtyojqphg9eatwuplkdrda12'; args=('ZWM0ODgxYzk4OWQyZmU1MTU0YjQ5OWIzOGNkNWMxNDQzOWVhYjVhMjp7InByb2plY3RfbmFtZSI6ImNsb3VkIn0=', '2019-02-06 06:57:07.468451', 'ivny83revtyojqphg9eatwuplkdrda12')
+DEBUG 2019-01-23 06:57:07,472 utils 27450 139675784214272 (0.000) UPDATE "django_session" SET "session_data" = 'ZWM0ODgxYzk4OWQyZmU1MTU0YjQ5OWIzOGNkNWMxNDQzOWVhYjVhMjp7InByb2plY3RfbmFtZSI6ImNsb3VkIn0=', "expire_date" = '2019-02-06 06:57:07.468451' WHERE "django_session"."session_key" = 'ivny83revtyojqphg9eatwuplkdrda12'; args=('ZWM0ODgxYzk4OWQyZmU1MTU0YjQ5OWIzOGNkNWMxNDQzOWVhYjVhMjp7InByb2plY3RfbmFtZSI6ImNsb3VkIn0=', '2019-02-06 06:57:07.468451', 'ivny83revtyojqphg9eatwuplkdrda12')
+INFO 2019-01-23 06:57:07,542 basehttp 27450 139675784214272 "GET /cloudmanager/ HTTP/1.1" 200 2940
+INFO 2019-01-23 06:57:13,303 middleware 27450 139675784214272 begin invoke view
+DEBUG 2019-01-23 06:57:13,307 views 27450 139675784214272 --------------login view is invoke!
+DEBUG 2019-01-23 06:57:13,312 utils 27450 139675784214272 (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-01-23 06:57:13.308557' AND "django_session"."session_key" = 'ivny83revtyojqphg9eatwuplkdrda12'); args=('2019-01-23 06:57:13.308557', 'ivny83revtyojqphg9eatwuplkdrda12')
+DEBUG 2019-01-23 06:57:13,312 utils 27450 139675784214272 (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2019-01-23 06:57:13.308557' AND "django_session"."session_key" = 'ivny83revtyojqphg9eatwuplkdrda12'); args=('2019-01-23 06:57:13.308557', 'ivny83revtyojqphg9eatwuplkdrda12')
+DEBUG 2019-01-23 06:57:13,314 views 27450 139675784214272 user_name:lhsqjoe@126.com -----------passwd:123456
+INFO 2019-01-23 06:57:13,328 middleware 27450 139675784214272 end invoke view
+DEBUG 2019-01-23 06:57:13,329 utils 27450 139675784214272 (0.000) BEGIN; args=None
+DEBUG 2019-01-23 06:57:13,329 utils 27450 139675784214272 (0.000) BEGIN; args=None
+DEBUG 2019-01-23 06:57:13,332 utils 27450 139675784214272 (0.000) UPDATE "django_session" SET "session_data" = 'Y2E1NTE3ZmJkNDNiNjIyOWMwNTRjN2MwOTZlNjhmMTVhZmIxYjkzMDp7InByb2plY3RfbmFtZSI6ImNsb3VkIiwidXNlcm5hbWUiOiJsaHNxam9lQDEyNi5jb20ifQ==', "expire_date" = '2019-02-06 06:57:13.329210' WHERE "django_session"."session_key" = 'ivny83revtyojqphg9eatwuplkdrda12'; args=('Y2E1NTE3ZmJkNDNiNjIyOWMwNTRjN2MwOTZlNjhmMTVhZmIxYjkzMDp7InByb2plY3RfbmFtZSI6ImNsb3VkIiwidXNlcm5hbWUiOiJsaHNxam9lQDEyNi5jb20ifQ==', '2019-02-06 06:57:13.329210', 'ivny83revtyojqphg9eatwuplkdrda12')
+DEBUG 2019-01-23 06:57:13,332 utils 27450 139675784214272 (0.000) UPDATE "django_session" SET "session_data" = 'Y2E1NTE3ZmJkNDNiNjIyOWMwNTRjN2MwOTZlNjhmMTVhZmIxYjkzMDp7InByb2plY3RfbmFtZSI6ImNsb3VkIiwidXNlcm5hbWUiOiJsaHNxam9lQDEyNi5jb20ifQ==', "expire_date" = '2019-02-06 06:57:13.329210' WHERE "django_session"."session_key" = 'ivny83revtyojqphg9eatwuplkdrda12'; args=('Y2E1NTE3ZmJkNDNiNjIyOWMwNTRjN2MwOTZlNjhmMTVhZmIxYjkzMDp7InByb2plY3RfbmFtZSI6ImNsb3VkIiwidXNlcm5hbWUiOiJsaHNxam9lQDEyNi5jb20ifQ==', '2019-02-06 06:57:13.329210', 'ivny83revtyojqphg9eatwuplkdrda12')
+INFO 2019-01-23 06:57:13,449 basehttp 27450 139675784214272 "POST /cloudmanager/login/ HTTP/1.1" 200 9400
+INFO 2019-01-23 06:57:13,484 basehttp 27450 139675784214272 "GET /static/dist/css/AdminLTE.css HTTP/1.1" 304 0
+INFO 2019-01-23 06:57:13,485 basehttp 27450 139675775821568 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
